@@ -61,6 +61,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add a fullscreen button to the TankOp activity #547
 - Add a home button in Grid Paint activity #546
 - Add a quit application button in Electron
+- Add a tutorial to the QR Code activity #595
+- Add a fullscreen button in the Stopwatch activity #599
+- Add a fullscreen button in the FoodChain activity #598
+- Add a fullscreen button to the Video Viewer activity #600
 
 ### Changed
 - Double size of Record images in WebApp and electron App
@@ -77,6 +81,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Click on buddy icon/name in buddy menu is now like clicking on settings item
 - Remove restart message on settings/about me and settings/about language
 - Increase link width in LabyrinthJS activity
+- Disable overscroll on iOS/Android
+- Click on activity icon/name in listview menu launch activity, reorder items
+- Use Sugarizer default language for FoodChain default language
+- Use Sugarizer default language for Abecedarium default language
 
 ### Fixed
 - Activity palette not visible on Tank Operation activity #371
@@ -105,6 +113,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Font size of Title reduces in fototoon activity #563
 - Fix TXT file generation in Write activity
 - Fix TXT import file
+- Journal chooser sometimes load Abecedarium images from server instead of from local directory
+- RGB bars in ColorMyWorld activity overflows #605
+- Harsh Sound in TamTam Micro activity in keyboard mode on Firefox and Safari #564
+- Grid Paint Activity screen not working properly on Firefox #342
+- Gridpaint don't handle window resize #403
+- In Journal Popup in iOS/Safari, Choose item text is not centered
+- RGB bars in LabyrinthJS and Write activity overflows #620
+- Time laps in stopwatch activity should be reset when reset button is clicked #624
 
 ### Removed
 - Remove .OGG sounds, now replaced by .MP3 only
